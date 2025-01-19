@@ -1,6 +1,6 @@
 import React, { useState,useContext, useEffect   } from "react";
-import Logo from "../../assets/icons/logo.svg";
-import DarkLogo from "../../assets/icons/darklogo.svg";
+// import Logo from "../../assets/icons/logo.svg";
+// import DarkLogo from "../../assets/icons/darklogo.svg";
 import { CiGlobe } from "react-icons/ci";
 import { IoPersonOutline } from "react-icons/io5";
 import { DATA } from "../../Context/DataContext";
@@ -62,7 +62,7 @@ function Header() {
             <div>
               <Link to={`/`}>
                 <div className="ml-3 mt-1 ">
-                  <img   src={show ? DarkLogo : Logo}  alt="" />
+                <img src={show ? "/icons/darklogo.svg" : "/icons/logo.svg"} alt="" />
                 </div>
               </Link>
             </div>
