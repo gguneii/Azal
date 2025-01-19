@@ -1,9 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { IoSwapVertical } from "react-icons/io5";
-import Directions from "../../assets/Icons/directions.svg";
 import { IoCalendarOutline } from "react-icons/io5";
-import { GiAirplaneDeparture } from "react-icons/gi";
-import { PiArrowsOutCardinalLight } from "react-icons/pi";
 import { RxCross1 } from "react-icons/rx";
 import { DATA } from "../../Context/DataContext";
 import Locations from "./Locations";
@@ -12,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 
 import { IoIosArrowDown } from "react-icons/io";
 
-import AllDirections from "./AllDirections";
 import Calendar from "./CalendarComponent";
 import { LoadingContext } from "../loading/LoadingContext";
 
