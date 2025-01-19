@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
-import Logo from "../../assets/icons/logo.svg";
-import DarkLogo from "../../assets/icons/darklogo.svg";
+// import Logo from "../../assets/icons/logo.svg";
+// import DarkLogo from "../../assets/icons/darklogo.svg";
 import { BsCurrencyExchange } from "react-icons/bs";
 import { CiGlobe } from "react-icons/ci";
 import { IoPersonOutline } from "react-icons/io5";
@@ -47,7 +47,7 @@ function FunctionalHeader() {
             <div>
               <Link to={`/`}>
                 <div className="ml-3 mt-1 ">
-                  <img src={DarkLogo} alt="" />
+                  {/* <img src={DarkLogo} alt="" /> */}
                 </div>
               </Link>
             </div>
